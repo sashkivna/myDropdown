@@ -1,0 +1,54 @@
+/* Styles go here */
+
+.btn {
+    width: 200px;
+    text-align: left;
+}
+
+.btn .caret {
+    float: right;
+}
+
+.drop-down {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 2px #555;
+    width: 200px;
+}
+
+.drop-down ul {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.drop-down li {
+    list-style: none;
+}
+
+.drop-down a {
+    display: block;
+    padding: 2px 5px;
+}
+
+.drop-down li:hover, .drop-down a:hover {
+    background: #0088CC;
+    color: #fff;
+    text-decoration: none;
+}
+
+.overlay {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body {
+    margin-left: 10%;
+}

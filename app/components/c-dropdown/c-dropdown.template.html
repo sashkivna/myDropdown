@@ -1,0 +1,11 @@
+<div class="btn btn-info" ng-click="toggleDropDown()">{{selectedCar}}
+    <button ng-click="clearSelection($event)">[x]</button>
+    <i class="caret"></i>
+
+    <div class="drop-down" ng-show="showList" id="cd">
+        <ul>
+            <li ng-repeat="selectedOption in options"><a href="" ng-click="selectItem(selectedOption.n)">{{selectedOption.n}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
