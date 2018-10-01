@@ -19,7 +19,8 @@ module.exports = function (config) {
             './app.js',
             './components/c-dropdown/c-dropdown.module.js',
             './**/*.js',
-            '**/*.template.html'
+            '**/*.template.html',
+            './styles.css'
         ],
 
         plugins: [
