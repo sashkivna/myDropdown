@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd775a7-41b8-479a-87f5-0a1a8602ee2e" name="Default Changelist" comment="" />
+    <list default="true" id="dfd775a7-41b8-479a-87f5-0a1a8602ee2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/c-drop.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/c-drop.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.directive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+    </list>
+    <list id="09d2087f-262b-45b0-974e-d3117e108168" name="Revert: karma config done" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -72,52 +81,61 @@
     <session id="1401614832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.5" value="12" />
+          <entry key="project.open.time.6" value="12" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="9" />
-          <entry key="js" value="5" />
+          <entry key="gitignore" value="11" />
+          <entry key="html" value="275" />
+          <entry key="js" value="1685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9" />
-          <entry key="JavaScript" value="5" />
+          <entry key="HTML" value="275" />
+          <entry key="JavaScript" value="1685" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="1" />
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="6" />
+          <entry key="js" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="14" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+        <entry file="file://$PROJECT_DIR$/app/c-drop.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="228">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -125,17 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -158,6 +167,12 @@
       <find>NarrowItDownApp</find>
       <find>jasmine-2.4.1</find>
       <find>myFunction</find>
+      <find>ngModel</find>
+      <find>ngModelD</find>
+      <find>setViewValue</find>
+      <find>ngM</find>
+      <find>$modelValue</find>
+      <find>ngOptionsDi</find>
     </findStrings>
     <replaceStrings>
       <replace>self</replace>
@@ -174,12 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/spinner/loadingspinner.template.html" />
-        <option value="$PROJECT_DIR$/src/menuApp/router.js" />
-        <option value="$PROJECT_DIR$/src/menuApp/menuCategories.controller.js" />
-        <option value="$PROJECT_DIR$/src/menuApp/categoryEntries.controller.js" />
-        <option value="$PROJECT_DIR$/src/menuApp/templates/items.template.html" />
-        <option value="$PROJECT_DIR$/src/menuApp/templates/categories.template.html" />
         <option value="$PROJECT_DIR$/src/items/items.module.js" />
         <option value="$PROJECT_DIR$/src/items/items.component.template.html" />
         <option value="$PROJECT_DIR$/src/data/menudata.service.js" />
@@ -223,8 +232,14 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/c-dropdown/c-dropdown.template.html" />
         <option value="$PROJECT_DIR$/components/c-dropdown/c-dropdown.directive.js" />
+        <option value="$PROJECT_DIR$/app/test.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.template.html" />
+        <option value="$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.directive.js" />
+        <option value="$PROJECT_DIR$/app/c-drop.spec.js" />
       </list>
     </option>
   </component>
@@ -234,11 +249,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1295" />
-    <option name="height" value="689" />
+    <option name="x" value="-11" />
+    <option name="y" value="-18" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,6 +304,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.karma.karma_node_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -315,12 +339,29 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="karma" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dfd775a7-41b8-479a-87f5-0a1a8602ee2e" name="Default Changelist" comment="" />
+      <changelist id="09d2087f-262b-45b0-974e-d3117e108168" name="Revert: karma config done" comment="" />
       <created>1534767823298</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -391,12 +432,77 @@
       <workItem from="1537437938247" duration="8000" />
       <workItem from="1537518329422" duration="1456000" />
       <workItem from="1537519944772" duration="4000" />
-      <workItem from="1538145537117" duration="511000" />
+      <workItem from="1538145537117" duration="1603000" />
+      <workItem from="1538333760207" duration="565000" />
+      <workItem from="1538377301205" duration="1780000" />
+      <workItem from="1538379104688" duration="1789000" />
+      <workItem from="1538380928968" duration="1796000" />
+      <workItem from="1538382747766" duration="1492000" />
+      <workItem from="1538384262537" duration="1788000" />
+      <workItem from="1538386071411" duration="1469000" />
+      <workItem from="1538387569155" duration="1792000" />
+      <workItem from="1538389389439" duration="1794000" />
+      <workItem from="1538391205053" duration="994000" />
+      <workItem from="1538393352454" duration="1791000" />
+      <workItem from="1538395172586" duration="1809000" />
+      <workItem from="1538397000198" duration="1831000" />
+      <workItem from="1538398851964" duration="1724000" />
+      <workItem from="1538400665791" duration="744000" />
+      <workItem from="1538402484026" duration="671000" />
+      <workItem from="1538464241787" duration="1652000" />
+      <workItem from="1538467227383" duration="1825000" />
+      <workItem from="1538469074096" duration="2303000" />
+      <workItem from="1538472385594" duration="1814000" />
+      <workItem from="1538474256675" duration="1792000" />
+      <workItem from="1538476067839" duration="924000" />
+      <workItem from="1538478727628" duration="1836000" />
+      <workItem from="1538480584095" duration="1790000" />
+      <workItem from="1538482395346" duration="1790000" />
+      <workItem from="1538484209652" duration="1031000" />
+      <workItem from="1538486029228" duration="1790000" />
+      <workItem from="1538487839326" duration="1821000" />
+      <workItem from="1538489678959" duration="1789000" />
+      <workItem from="1538491488431" duration="1265000" />
+      <workItem from="1538552576447" duration="1785000" />
+      <workItem from="1538554388675" duration="399000" />
+      <workItem from="1538554803889" duration="11000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="karma - 2018.10.03 at 11h 05m 39s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 05m 46s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 07m 09s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 07m 18s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 08m 29s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 10m 44s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 11m 45s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 12m 04s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 13m 52s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="karma - 2018.10.03 at 11h 14m 42s.xml">
+      <configuration name="karma" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102135000" />
+    <option name="totallyTimeSpent" value="152698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,23 +515,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19704953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22655427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29067245" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.18655097" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4067245" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" weight="0.54013014" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.22597864" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,6 +558,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -483,30 +615,12 @@
     <entry file="file://$PROJECT_DIR$/css/styles.css" />
     <entry file="file://$PROJECT_DIR$/src/CookieDetector.js" />
     <entry file="file://$PROJECT_DIR$/src/OddEven.js" />
-    <entry file="file://$PROJECT_DIR$/lib/angular-mocks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="3096" column="27" selection-start-line="3096" selection-start-column="27" selection-end-line="3096" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/angular-mocks.js" />
     <entry file="file://$PROJECT_DIR$/spec/shoppinglist.controller.spec.js" />
     <entry file="file://$PROJECT_DIR$/menucategories.service.spec.js" />
-    <entry file="file://$PROJECT_DIR$/lib/jquery-3.1.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22270" selection-start-line="3" selection-start-column="22270" selection-end-line="3" selection-end-column="22270" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery-3.1.0.min.js" />
     <entry file="file://$PROJECT_DIR$/directiveTempl.html" />
-    <entry file="file://$PROJECT_DIR$/shoppinglist-component.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppinglist-component.spec.js" />
     <entry file="file://$PROJECT_DIR$/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -515,66 +629,83 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/c-dropdown/dropdown-options.directive.js" />
-    <entry file="file://$PROJECT_DIR$/lib/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/angular.min.js" />
+    <entry file="file://$PROJECT_DIR$/SpecRunner.html" />
+    <entry file="file://$PROJECT_DIR$/app/test.html" />
     <entry file="file://$PROJECT_DIR$/app/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
+        <state relative-caret-position="477">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret column="33" selection-start-column="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="31888" selection-start-line="31888" selection-end-line="31888" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/c-drop.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/c-dropdown/c-dropdown.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
