@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css"
+          href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body id="body" ng-controller="MyController">
+<hr/>
+<form name="myForm">
+    <input class="addField" type="button" ng-click="Add()" value="Add"/>
+
+    <div ng-repeat="field in fields">
+        <input type="text" name="field" ng-model="field.field" required/>
+        <span ng-show="myForm.$$controls[$index].$touched && myForm.$$controls[$index].$invalid">Field is required.</span>
+        <input class="deleteIcon" type="button" ng-click="Remove($index)" value="[x]"/>
+
+    </div>
+    <button class="addField" type="submit" ng-click="submitForm(myForm.$valid)">Save</button>
+
+
+</form>
+<script src="../../../node_modules/angular/angular.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
