@@ -78,5 +78,5 @@ module.exports = function (config) {
         ngHtml2JsPreprocessor: {
             moduleName: 'foo'
         }
-    })
+    });
 };

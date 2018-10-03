@@ -23,7 +23,7 @@ describe('c-dropdown directive', function () {
         ];
 
         $rootScope.selectedCar = $rootScope.cars[0].n;
-        element = $compile('<c-dropdown selected-option=selectedCar options="cars"></c-dropdown>')($rootScope);
+        element = $compile('<c-dropdown ng-model="selectedCar" options="cars"></c-dropdown>')($rootScope);
         $('body').append(element);
         $rootScope.$apply();
     }));
@@ -38,6 +38,7 @@ describe('c-dropdown directive', function () {
     });
 
     it('should open and close list', function () {
+        debugger;
         toggleDropdown();
 
         expect(element.find('li').length).toBe($rootScope.cars.length);
@@ -51,14 +52,6 @@ describe('c-dropdown directive', function () {
         toggleDropdown();
         expect(element.find('li').length).toBe($rootScope.cars.length);
         expect(element.find('a')[0].text).toBe($rootScope.selectedCar);
-    });
-
-    it('should select/unselect option', function () {
-        toggleDropdown();
-        $('a'[0]).click();
-        toggleDropdown();
-        $('button').click();
-        expect(element.find('btn-info').innerText).toBe(undefined);
     });
 
     it('should close dropdown after clicking out of dropdown', function () {

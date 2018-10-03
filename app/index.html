@@ -11,8 +11,14 @@
 <hr/>
 <label>Select A Movie:</label>
 
-<c-dropdown selected-option="selectedCar" options="cars"></c-dropdown>
-
+<div>
+    {{selectedCar}}
+    <c-dropdown ng-model="selectedCar" options="cars"></c-dropdown>
+</div>
+<div>
+    {{selectedCar}}
+    <c-dropdown ng-model="selectedCar" options="cars"></c-dropdown>
+</div>
 <script src="../node_modules/angular/angular.js"></script>
 <script src="app.js"></script>
 <script src="components/c-dropdown/c-dropdown.module.js"></script>

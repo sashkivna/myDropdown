@@ -5,11 +5,19 @@ angular.module('c-dropdown.module')
             templateUrl: 'components/c-dropdown/c-dropdown.template.html',
 
             scope: {
-                selectedOption: '=',
+                ngModel: '=',
                 options: '='
             },
 
-            link: function ($scope, $element) {
+            require: ['ngModel'],
+
+            link: function ($scope, $element, attr, ngModelController) {
+                ngModelController.$render = function () {
+                    $scope.selectedCar = ngModelController.$modelValue;
+
+                    //ngModelController.$setViewValue(ngModelController.$modelValue);
+                };
+
                 $scope.toggleDropDown = function () {
                     $scope.showList = !$scope.showList;
                 };
@@ -22,13 +30,16 @@ angular.module('c-dropdown.module')
                 }, false);
 
                 $scope.selectItem = function (car) {
+                    debugger;
                     $scope.selectedCar = car;
                     $scope.showList = false;
+                    ngModelController.$setViewValue($scope.selectedCar);
                 };
 
                 $scope.clearSelection = function (e) {
                     e.stopPropagation();
                     $scope.selectedCar = null;
+                    $scope.ngModel = $scope.selectedCar;
                 };
             }
         };
