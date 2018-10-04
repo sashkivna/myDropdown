@@ -13,8 +13,8 @@
     <input class="addField" type="button" ng-click="Add()" value="Add"/>
 
     <div ng-repeat="field in fields">
-        <input type="text" name="field" ng-model="field.field" required/>
-        <span ng-show="myForm.$$controls[$index].$touched && myForm.$$controls[$index].$invalid">Field is required.</span>
+        <input type="text" name="{{$index}}" ng-model="field.field" required/>
+        <span ng-show="myForm[$index].$touched && myForm[$index].$invalid">Field is required.</span>
         <input class="deleteIcon" type="button" ng-click="Remove($index)" value="[x]"/>
 
     </div>
