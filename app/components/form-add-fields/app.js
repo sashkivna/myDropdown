@@ -1,15 +1,14 @@
-var app = angular.module('MyApp', []);
+var app = angular.module('MyApp1', []);
 
 app.controller('MyController', function ($scope) {
     $scope.fields = [];
 
-    $scope.Add = function () {
+    $scope.add = function () {
         var field = {};
         $scope.fields.push(field);
-        //console.log($scope.fields);
     };
 
-    $scope.Remove = function (index) {
+    $scope.remove = function (index) {
         $scope.fields.splice(index, 1);
     };
 

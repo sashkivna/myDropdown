@@ -1,0 +1,11 @@
+<form name="myForm" novalidate>
+    <button type="button" class="add-filed" ng-click="add()">Add</button>
+
+    <div ng-repeat="field in fields">
+        <input class="added" type="text" name="{{$index}}" ng-model="field.field" required/>
+        <span class="warning" ng-show="myForm[$index].$touched && myForm[$index].$invalid">Field is required.</span>
+        <input class="deleteIcon" type="button" ng-click="remove($index)" value="[x]"/>
+    </div>
+
+    <button class="submit" ng-disabled="myForm.$invalid" type="submit" ng-click="submitForm(myForm.$valid)">Save</button>
+</form>

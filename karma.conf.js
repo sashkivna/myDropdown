@@ -16,11 +16,19 @@ module.exports = function (config) {
             '../node_modules/jquery/dist/jquery.js',
             '../node_modules/angular/angular.js',
             '../node_modules/angular-mocks/angular-mocks.js',
-            './app.js',
+         /*   './app.js',
             './components/c-dropdown/c-dropdown.module.js',
-            './**/*.js',
-            '**/*.template.html',
-            './styles.css'
+            './!**!/!*.js',
+            '**!/!*.template.html',
+            './styles.css'*/
+            './components/form-add-fields/app.js',
+            './components/form-add-fields/form.spec.js',
+            './components/form-add-fields/form-add-field.template.html',
+            './components/form-add-fields/index.html',
+            './components/form-add-fields/styles.css',
+            '**/*.html',
+            '**!/!*.template.html',
+            './!**!/!*.js'
         ],
 
         plugins: [

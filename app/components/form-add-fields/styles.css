@@ -2,16 +2,6 @@
     margin-bottom: 1%;
     margin-left: 2%;
 }
-.addField {
-    margin-bottom: 5%;
-}
-
-/*input.ng-invalid.ng-touched {
-    border: 1px solid red;
-}
-input.ng-valid {
-    border: 1px solid green;
-}*/
 
 input.ng-invalid.ng-touched {
     background-color: #FA787E;

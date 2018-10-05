@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="MyApp">
+<html ng-app="MyApp1">
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css"
@@ -9,21 +9,11 @@
 </head>
 <body id="body" ng-controller="MyController">
 <hr/>
-<form name="myForm">
-    <input class="addField" type="button" ng-click="Add()" value="Add"/>
 
-    <div ng-repeat="field in fields">
-        <input type="text" name="{{$index}}" ng-model="field.field" required/>
-        <span ng-show="myForm[$index].$touched && myForm[$index].$invalid">Field is required.</span>
-        <input class="deleteIcon" type="button" ng-click="Remove($index)" value="[x]"/>
+<div ng-include="'form-add-field.template.html'"></div>
 
-    </div>
-    <button class="addField" type="submit" ng-click="submitForm(myForm.$valid)">Save</button>
-
-
-</form>
 <script src="../../../node_modules/angular/angular.js"></script>
 <script src="app.js"></script>
-
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </body>
 </html>
